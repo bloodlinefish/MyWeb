@@ -66,14 +66,23 @@ def page_1():
     st.audio(backgroundmusic, format="audio/ogg", start_time=0)
     st.image("Persona5.jpeg")
     st.write("我的游戏推荐")
-    col1, col2, col3 = st.columns([1, 2, 2])
-    with col1:
-        st.text("《女神异闻录5》")
-    with col2:
-        st.text("《无畏契约》")
+    #col1, col2, col3 = st.columns([1, 2, 2])with col1:
+    st.text("《女神异闻录5》")
+    st.image("P5介绍1.png")
+    st.image("P5介绍2.png")
+    st.image("P5介绍3.png")
+    st.text("白天是普通的学生，享受丰富的校园活动夜晚化身怪盗")
+    st.text("目标是那些欲望扭曲的堕落者们，通关他们的宫殿， 偷走他们的密宝，让他们悔改吧")
+    st.text("为弱者夺回被偷走的世界！")
+    #with col2:
+    #st.text("《无畏契约》")
     st.write("----")
     st.write("我的书籍推荐")
     st.text("《诡秘之主》")
+    st.image("诡秘之主.jpeg")
+    st.text("蒸汽与机械的浪潮中，谁能触及非凡。历史和黑暗的迷雾里，又是谁在耳语。")
+    st.text("我从诡秘中醒来，睁眼看见这个世界：枪械，大炮，巨舰，飞空艇，差分机；魔药，占卜，诅咒，倒吊人，封印物……光明依旧照耀，神秘从未远离，这是一段“愚者”的传说。") 
+    st.text("黑铁纪元，七位正统神灵与四大国统治着北大陆。蒸汽与机械的浪潮中，工业化社会迅速发展成形，而在看似平静繁荣的表面下，则是一个神秘扭曲，乃至疯狂的非凡世界。")
     
 def page_2():
     '''我的图片处理工具'''
